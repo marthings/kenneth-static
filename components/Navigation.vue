@@ -1,6 +1,10 @@
 <template>
   <nav class="navigation">
     <logo/>
+
+    <div class="navigation-menu">
+      hej
+    </div>
   </nav>
 </template>
 
@@ -17,6 +21,6 @@ export default {
 
 <style>
   .navigation {
-    @apply bg-black;
+    @apply bg-black p-8 text-white flex justify-between;
   }
 </style>
